@@ -1,0 +1,8 @@
+.app_container {  max-width: 1200px; margin: 0 auto; overflow: auto; padding: 0 40px; }
+
+@media (max-width: 600px) {
+    .app_container { padding: 0 25px; }
+}
+@media (max-width: 400px ) {
+    .app_container { padding: 0 15px; }
+}

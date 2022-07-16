@@ -1,0 +1,27 @@
+.grid_carts .g-col-2 { grid-template-columns: 2fr 3fr; grid-gap: 1.5rem; }
+.cart_viewpage { margin-top: 12rem; text-align: right; background: #f3f3f4; }
+.buyitems_div { background: #fff; margin-top: 4.5rem; padding: 2.5rem; padding-bottom: 3.5rem; }
+.panel_carts { margin-top: 1.5rem; }
+.panel_carts div { margin-bottom: 0.6rem; border-top: 1px solid grey; padding-top: 12px; }
+.panel_carts div p { line-height: 28px; }
+.cart_btns div button { width: 100%; margin-bottom: 0.8rem; }
+.cart_btns div button:first-child { margin-top: 0.3rem; }
+.color_blue { color: #32c6c7; }
+.counts_items { display: flex; justify-content: flex-end; align-items: flex-end; margin-top: 0.8rem; }
+.counts_items p { margin: 0 15px; }
+.counts_btn { padding: 0.5rem; background: #f9f9f9; cursor: pointer; border-radius: 5px; }
+.counts_btn .MuiSvgIcon-root { font-size: 11px; }
+.grid_tablecarts div { text-align: right; margin-bottom: 0.5rem; }
+.single_product_grid { margin-bottom: 0.8rem; border-bottom: 1px solid #cccccc;  }
+.grid_tablecarts div > p { line-height: 28px; }
+.cart_items { display: flex; justify-content: flex-end; align-items: flex-end; margin-top: 0.8rem; }
+
+@media (max-width: 750px) {
+    .course_name_p { font-size: 13px; }
+    .grid_carts .g-col-2 { grid-template-columns: repeat(1 , 1fr);  }
+}
+
+@media (max-width: 400px) {
+    .panel_carts .d-flex-c { flex-direction: column-reverse !important; }
+    .course_name_p { font-size: 11px; }
+}

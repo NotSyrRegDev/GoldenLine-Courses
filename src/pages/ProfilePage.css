@@ -1,0 +1,16 @@
+.profile_page { margin-top: 12rem; text-align: right; }
+
+.profile_input { padding: 0.8rem 2.2rem; width: 70%; background: #fff; border: 1px solid #cccccc ; margin-top: 0.8rem; text-align: right; }
+.profile_infodiv div { margin-bottom: 1.5rem; }
+.btns_flexdiv { display: flex; justify-content: flex-start; align-items: flex-start; }
+.btns_flexdiv .buy_btn { padding: 0.3rem 1.8rem; font-size: 16px; border-radius: 0 !important;  }
+.logout_btn { padding: 0.3rem 1.8rem; margin: 0 10px; font-size: 16px;  background: #f9f9f9; border: 3px solid #f21; color: #f21; transition: all 0.5s ease ;  }
+.logout_btn:hover { background: #f21 ; color: #fff; }
+
+@media (max-width: 350px) {
+    .profile_input { padding: 0.8rem 1.2rem; width: 85%;  }
+    .logout_btn  { padding: 0.3rem 0.8rem; }
+    .btns_flexdiv .buy_btn { padding: 0.5rem 1.8rem; font-size: 24px;  }
+    .btns_flexdiv { flex-direction: column; align-items: center; justify-content: center; }
+    .btns_flexdiv button:first-child { margin-bottom: 1.2rem; }
+}

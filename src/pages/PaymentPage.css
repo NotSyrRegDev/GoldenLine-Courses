@@ -1,0 +1,33 @@
+
+.payment_div { text-align: right; margin-top: 4rem; position: relative; }
+.payment_div p{ line-height: 28px; margin-top: 0.6rem; }
+.grid_payment { display: grid; grid-template-columns: 2fr 3fr; grid-gap: 2.5rem;  margin-top: 6rem; cursor: pointer; }
+.payment_option { background: #fff; padding: 0.4rem 2.2rem; width: 100%; border: 1px solid #cccccc; margin-bottom: 0.8rem;  }
+.payment_option:hover { border: 1px solid #32c6c7; box-shadow: 0 2px 3px rgba(0,0,0,0.4); }
+.payment_info_div .box_radio { width: 15px; height: 15px ; border-radius: 100%;margin-left: 12px; border: 1px solid #cccccc; }
+.payment_dropdown { background: #efeded; padding: 1.4rem 2.2rem; width: 100%; border: 1px solid #fff; color: #000; }
+.input_payment { margin-bottom: 0.8rem; }
+.input_payment label { display: block; margin-bottom: 0.4rem;  line-height: 26px; }
+.input_payment input { background: #fff; border: 1px solid #cccccc; width: 60%; padding: 0.8rem 2.2rem; text-align: right; }
+.input_thum img { height: 25px; }
+.carts_products { text-align: right; margin-top: 8rem; }
+.product_payment img { height: 50px; margin-left: 0.8rem;  }
+.carts_products { padding-bottom: 4rem; }
+.payment_btn { width: 20%; padding: 0.8rem 1.8rem; font-size: 16px; background: #32c6c7; color: #fff; border: none; font-family: 'Almarai'; margin-bottom: 4.5rem; cursor: pointer; }
+
+@media (max-width: 650px) {
+    .buyied_btn { margin: 0 10px; }
+    .input_payment input { width: 90%; }
+    .input_payment label { font-size: 14px; }
+    .payment_option div h4 { font-size: 15px; }
+    .product_payment p { font-size: 13px; margin: 1.2rem 0; }
+    .grid_payment  { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (max-width: 400px) {
+   
+    .payment_info_div p { font-size: 14px; }
+    .payment_option .d-flex-c{ flex-direction: column-reverse !important; }
+    .payment_option { padding-bottom: 1.8rem; }
+    .input_thum { height: 25px; margin-top: 0.5rem; }
+}

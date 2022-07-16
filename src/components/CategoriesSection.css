@@ -1,0 +1,16 @@
+.main_headline { font-size: 26px; font-family: 'Almarai'; font-weight: bold;   }
+
+.grid_categories { display: grid; }
+.grid_categories .g-col-4 { grid-gap: 2.5rem !important; }
+
+@media (max-width: 1100px) {
+    .grid_categories .g-col-4 { grid-template-columns: repeat(3 , 1fr); }
+}
+
+@media (max-width: 900px) {
+    .grid_categories .g-col-4 { grid-template-columns: repeat(2 , 1fr); }
+}
+
+@media (max-width: 600px) {
+    .grid_categories .g-col-4 { grid-template-columns: repeat(1 , 1fr); }
+}

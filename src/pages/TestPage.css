@@ -1,0 +1,10 @@
+.test_page { text-align: right; margin-top: 12rem; }
+
+.test_page .buy_btn { display: flex; align-items: center; flex-direction: column; justify-content: center;  font-size: 24px; cursor: pointer; }
+.buy_btn:hover { background: #32c6c7; color: #fff;  }
+
+
+@media (max-width: 650px) {
+    .test_page .buy_btn { font-size: 14px; padding: 0.6rem 0.1rem; text-align: center; }
+}
+

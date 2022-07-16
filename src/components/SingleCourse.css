@@ -1,0 +1,13 @@
+
+.single_course { display: flex; flex-direction: column; align-items: center; justify-content: center;  border: 1px solid  #eeeeee; padding: 0 0.3rem; margin: 0 0.8rem; cursor: pointer; padding-bottom: 2rem;  }
+.single_course img { height: 18rem; } 
+.single_course h4{  font-size: 14px; color: #6c6060; font-family: 'Almarai'; text-align: center; margin-top: 4px; }
+.current_price { color: #e6626b; font-family: 'Almarai'; margin-bottom: 8px;  }
+.old_price { font-family: 'Almarai'; text-decoration: line-through;  }
+.add_btn { color: #fff; background: #32c6c7; border: 1px solid #2db4b5; padding: 0.4rem 1.8rem; border-radius: 5px; font-family: 'Almarai'; font-size: 14px; transition: transform 0.4s ease-in-out; cursor: pointer;  }
+.add_btn:hover { transform: scale(1.03); }
+.tax_false { font-size: 10px; color: grey;  margin-top: 5px; line-height: 22px;  text-align: center;}
+
+@media (max-width: 400px) {
+    .single_course img { height: 12rem; }
+}

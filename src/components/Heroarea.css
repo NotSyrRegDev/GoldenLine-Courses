@@ -1,0 +1,31 @@
+
+.main_heroarea { overflow-y: hidden !important; max-height: 85vh; margin-top: 3.5rem; }
+.slider_wrapper {  position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; max-height: 100%;  }
+.slider_wrapper img { max-height: 100% ; width: 100%; }
+.slider_main { position: relative; }
+.slick-list { overflow: initial; }
+
+  .slick-prev {
+    
+    left: -75px; 
+  }
+  .slick-next {
+      right: -75px;
+  }
+  .slick-dots { 
+
+      bottom: 0px;
+   }
+
+   @media (max-width: 700px) {
+   
+   }
+
+   @media (max-width: 500px) {
+    .slider_wrapper img { max-height: 100%; }
+    .main_heroarea  { max-height: 100vh; }
+   }
+
+   @media (max-width: 300px) {
+    .main_heroarea { margin-top: 5.5rem; }
+   }

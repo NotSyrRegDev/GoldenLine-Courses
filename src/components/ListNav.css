@@ -1,0 +1,16 @@
+
+.list_nav {  background: #f3f3f4; padding: .5rem 0.5rem; position: fixed; top: 8%; right: 0; z-index: 99; width: 100%;  }
+ul.ul_flex { display: flex; align-items: center; }
+ul.ul_flex li { margin: 0 0.4rem; }
+ul.ul_flex li a{  font-family: 'Almarai'; font-size: 13px; color: #606060;  }
+ul.ul_flex li a:hover { text-decoration: underline; }
+.buy_btn { outline: none; background: none; border: 3px solid #32c6c7; color: #32c6c7; font-family: 'Almarai'; font-size: 11px; border-radius: 25px; padding: 0.6rem 0.8rem; transition: all 0.5s ease-in; cursor: pointer; }
+.buy_btn:hover { background: #fff;   }
+@media (max-width: 1100px) {
+    .buy_btn { padding: 0.2rem 0.4rem; font-size: 10px;  }
+    ul.ul_flex li { margin: 0 0.2rem; }
+    ul.ul_flex li a { font-size: 12px; }
+}
+@media (max-width: 850px) {
+   .list_nav { display: none;  }
+}

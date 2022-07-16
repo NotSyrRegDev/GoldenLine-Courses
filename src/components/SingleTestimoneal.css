@@ -1,0 +1,5 @@
+
+.single_testimoneal { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 45vh ; }
+.single_testimoneal p { font-size: 14px; font-family: 'Almarai'; font-weight: 200;  }
+.single_testimoneal h5 { font-size: 14px; font-family: 'Almarai'; font-weight: bold; margin-top: 1.2rem;  }
+.avtar_testimoneal { height: 50px; margin-bottom: 1.2rem; }

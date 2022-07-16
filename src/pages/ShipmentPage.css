@@ -1,0 +1,41 @@
+.shipping_methods { display: flex; align-items: center; justify-content: center; flex-wrap: wrap;  }
+.shipment_page { margin-top: 12rem; }
+ .hr_design { background: #f9f9f9 !important; }
+ .shipping_methods div { width: 90px; height: 90px; border: 1px solid #cccccc; margin: 0 10px; position: relative; margin-bottom: 0.5rem; }
+ .shipping_methods div img { height: 50px;  position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%); }
+
+
+ table {
+    font-family: 'Almarai';
+
+    font-size: 14px;
+    border-collapse: collapse;
+   display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  
+  td, th {
+     
+      
+    padding: 0.5rem 3.5rem;
+    text-align: left;
+    margin: 0;
+  }
+  
+  tbody tr:nth-child(2n){
+    background-color: #fff;
+  }
+  
+  th {
+    position: sticky;
+    top: 0;
+    
+    color: black;
+  }
+
+  @media (max-width: 750px) {
+    table { font-size: 11px;  display: block; }
+    td, th { padding: 0.3rem 0.6rem; }
+    .text-center > h1 { font-size: 22px; }
+  }
+
+  

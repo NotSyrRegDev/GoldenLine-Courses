@@ -1,0 +1,8 @@
+.single_category { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.single_category img { height: 15rem;   }
+.single_category h1 { font-size: 18px; font-family: 'Almarai'; font-weight: 200; margin-top: 15px;   }
+
+@media (max-width: 350px) {
+    .single_category img { height: 8rem;   }
+    .single_category h1 { font-size: 14px; line-height: 28px; }
+}

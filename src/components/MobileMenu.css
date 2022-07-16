@@ -1,0 +1,12 @@
+
+.mobile_menu { position: fixed;  top: 50%; left: 50%; transform: translate(-50% , -50%); background-image: linear-gradient(to top, #a18cd1c6 0%, #fbc2eb96 100%); z-index: 55; width: 100%; padding: 4rem 0; height: 100%; z-index: 999; visibility: hidden; opacity: 0;  }
+.mobile_menu.active { visibility: visible; opacity: 1; }
+.mobile_icon { height: 50px; }
+ul.mobile_ul {  }
+ul.mobile_ul li{ margin: 1.5rem 0; }
+ul.mobile_ul li a{  font-size: 16x; color: #464646;   }
+.mobile_ul li a button { background: #464646; color: #fff; }
+.mobile_menu_links li { margin: 0.8rem 0rem !important; }
+.mobile_menu_links li a { font-size: 13px; color: #464646; font-weight: bold; }
+.profile_logged_mobile p {color: #000; }
+.profile_logged_mobile .MuiSvgIcon-root {color: #000; }

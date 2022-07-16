@@ -1,0 +1,40 @@
+
+.signIn_page {position: relative;  position: fixed; top: 50%; left: 50%; transform: translate(-50% , -50%);  height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 3px solid #cccccc; box-sizing: 0 12px 5px rgba(0,0,0,0.3); width: 50%;  }
+.back_div { position: absolute; top: 10%; right: 6%; }
+.back_div .MuiSvgIcon-root { font-size: 24px; color: grey; }
+.signIn_page img { margin-bottom: 2.5rem; }
+.inputs_singin { display: flex; flex-direction: column; align-items: center; justify-content: center;  margin-bottom: 0.8rem; }
+.signIn_page p { line-height: 28px; }
+.signIn_page h3 { margin-bottom: 0.5rem; font-size: 24px; }
+.sign_input { margin: 0 0.8rem; padding: 0.8rem; background: #fff; border: 1px solid #cccccc;  width: 100%; }
+.inputs_singin input:first-child { flex: 1; }
+.signIn_page .buy_btn { border-radius: 0; padding: 0.8rem 4.8rem; background: #32c6c7; color: white; }
+.signIn_page .buy_btn:hover { border-radius: 0; padding: 0.8rem 4.8rem; background: #fff; color: #32c6c7; }
+#recaptcha-container div div { overflow: hidden !important; }
+.read_input { background: #f2f2f2; }
+
+@media (max-width: 1300px) {
+    .signIn_page { width: 65%; }
+}
+
+@media (max-width: 1100px) {
+    .signIn_page { width: 80%; }
+}
+@media (max-width: 750px) {
+    .signIn_page { width: 90%; }
+    .signIn_page p { font-size: 12px; line-height: 22px; text-align: center;padding: 0 0.5rem;  }
+}
+@media (max-width: 400px) {
+    .signIn_page h3 { font-size: 18px; }
+    .sign_input { margin: 0 0rem; }
+    .signIn_page .d-flex-c { display: block !important; text-align: center; }
+    .signIn_page { padding: 0 0.5rem; }
+   .signIn_page .buy_btn { padding: 0.4rem 1.5rem;  }
+}
+
+@media (max-width: 250px) {
+    .sign_input { padding: 0.3rem; }
+    .signIn_page img { height: 25px; margin-bottom: 0.5rem; }
+    .signIn_page h4 { font-size: 14px; }
+    .signIn_page p { font-size: 10px; line-height: 20px; }
+}

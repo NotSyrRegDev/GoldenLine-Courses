@@ -1,0 +1,57 @@
+.single_coursepage { margin-top: 12rem; text-align: right; }
+.single_coursepage > p { line-height: 28px; } 
+.course_cover { min-height: 26rem; }
+.grid_product .g-col-2 { grid-gap: 2.5rem; }
+.product_info h1 { font-size: 32px; color: grey; }
+.stars_div .MuiSvgIcon-root { color: yellow; }
+.stars_div { display: flex; align-items: baseline; }
+.buyied_btn { background: #989797; padding: 0.3rem; border: 1px solid grey; color: white; font-size: 11px; font-family: 'Almarai'; }
+
+.select_count { margin-top: 10px;  padding: 0.3rem 2.2rem; border: 1px solid #cccccc; background: #fff; }
+.ratings_div { margin-top: 10rem; }
+.tap_btn { outline: none; border: none;  background: none; font-family: 'Almarai'; font-size: 24px; font-weight: 300; margin: 0 2.5rem; cursor: pointer;  }
+.tap_btn.active { padding-bottom: 1.5rem; border-bottom: 1px solid #000;  }
+.product_info div .current_price { margin: 0 15px; }
+
+.para_desc { text-align: right; font-size: 15px; line-height: 42px; color: grey;  margin-left: 12rem; }
+.single_opinion { border: 1px solid #cccccc; width: 60%; height: 20%; padding: 1rem 2.5rem; display: flex; flex-direction: column; align-items: flex-end; justify-content: flex-end; position: relative;  }
+.single_opinion > p { margin-top: 14px; font-size: 14px; color: #222; line-height: 24px; text-align: right; }
+.date_opinion { position: absolute; top: 15%; left: 5%; }
+.single_opinion h5 { font-weight: bold; margin-top: 5px; }
+.rating_coursediv p { margin: 0 0.8rem; }
+
+@media (max-width: 1100px) {
+    .product_info h1{ font-size: 26px; }
+    .course_cover { min-height: 21rem; }
+}
+@media (max-width: 850px) {
+    .single_opinion { padding: 1rem 0.8rem; }
+    .rating_coursediv p { margin: 0 0.4rem; }
+    .product_info h1{ font-size: 20px; }
+    .course_cover { min-height: 21rem; }
+}
+
+@media (max-width: 750px) {
+    .course_cover { min-height: 24rem;   }
+    .grid_product .g-col-2{ grid-template-columns: repeat(1 , 1fr); }
+}
+
+@media (max-width: 600px) {
+  
+    .para_desc { line-height: 28px; }
+    .date_opinion { position: relative; text-align: center; padding: 0.3rem 0.8rem; }
+}
+
+@media (max-width: 450px) {
+    .ratings_div .d-flex-c { flex-direction: column-reverse !important; }
+    .rating_coursediv { flex-direction: column-reverse !important; }
+    .rating_coursediv p { margin: 1.2rem 0; }
+    .product_info h1{ font-size: 18px; }
+    .course_cover { min-height: 16rem;   }
+}
+
+@media (max-width: 350px) {
+    .stars_div .MuiSvgIcon-root { font-size: 16px; }
+    .product_info h1{ font-size: 16px; }
+    .course_cover { min-height: 8rem;   }
+}
