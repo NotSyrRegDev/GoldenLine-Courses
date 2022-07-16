@@ -5,16 +5,17 @@
 
 # Golden Line Courses
 
-React unsplash is a clone version of unsplash that let you view random beautiful images every time you refersh page with ability to join the website and login
+Golden Line Courses is an online e-commerce website for selling courses online , with the ablity to review customers reviews choose the
+best course that fit your needs and improve your skills
 
 
 
-![N|Solid](https://i.ibb.co/bRGmy8b/Unsplash-Img.png)
+![N|Solid](https://i.ibb.co/j8LWM8S/2022-07-16-214847.png)
 
 
-### Viewing Photos
+### Viewing Categories
 
-![N|Solid](https://i.ibb.co/cY3LVnK/Unsplash-Photos-Area.png)
+![N|Solid](https://i.ibb.co/pZPqXd8/2022-07-16-214912.png)
 
 
 ## Prerequisites
@@ -26,13 +27,30 @@ You need to have [Node.js](https://nodejs.org/) installed on your computer to ru
 ### Clone This Repository
 
 ```
-git clone 
+git clone https://github.com/NotSyrRegDev/GoldenLine-Courses.git
 ```
 
 ### Install Required Packages
 
 ```
 npm install 
+```
+
+### Open [Firebase Console](https://console.firebase.google.com/) and create new project with the following
+
+- Enable Authentication Phone Provider
+- Enable firestore and create the collections { categories , products , rating , users } 
+
+### Add The Necessary Enviroment Variables To Use Firebase
+
+```
+REACT_APP_FIREBASE_API_KEY = 'your_firebase_api_key'
+REACT_APP_FIREBASE_AUTH_DOMAIN = 'your_firebase_auth_domain'
+REACT_APP_FIREBASE_PROJECT_ID = 'your_firebase_proejct_id'
+REACT_APP_FIREBASE_STOARGE_BUCKET = 'your_firebase_stoarge_bucket'
+REACT_APP_FIREBASE_MESSAGE_SENDER_ID = 'your_firebase_message_sender_id'
+REACT_APP_FIREBASE_APP_ID = 'your_firebase_app_id'
+REACT_APP_FIREBASE_MEASURE_ID = 'your_firebase_measure_id'
 ```
 
 ### Run The Application
@@ -44,11 +62,10 @@ npm install
 ```
 
 ## How It Works 
-- Access the Picsum API by [sending queries](https://picsum.photos/).
+- Using [Firebase](https://console.firebase.google.com/) for data stoarge and phone authentication
 - [React Router DOM Package Version 5](https://v5.reactrouter.com/web/guides/quick-start)
-- [Axios for sending api requests](https://www.npmjs.com/package/axios)
+- [Axios](https://www.npmjs.com/package/axios) for sending api requests
+- [React Slick](https://react-slick.neostack.com/) for sliding
 
-## Important 
 
-[Unplash](https://unsplash.com) is a registered trademark. This project is just for learning purposes and should be treated as such.
 
